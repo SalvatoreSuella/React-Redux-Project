@@ -5,7 +5,7 @@ import { pause } from "../../utils";
 const photosApi = createApi({
   reducerPath: "photos",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3004",
+    baseUrl: "https://json-serverfor-redux.vercel.app/",
     fetchFn: async (...args) => {
       await pause(1000);
       return fetch(...args);
