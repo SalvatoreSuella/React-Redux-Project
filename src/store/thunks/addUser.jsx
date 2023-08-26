@@ -4,12 +4,9 @@ import axios from "axios";
 import { pause } from "../../utils";
 
 export const addUser = createAsyncThunk("users/add", async () => {
-  const response = await axios.post(
-    "https://json-serverfor-redux.vercel.app/users",
-    {
-      name: faker.person.fullName(),
-    }
-  );
+  const response = await axios.post("http://localhost:3004/users", {
+    name: faker.person.fullName(),
+  });
 
   await pause(1000);
 
