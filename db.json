@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "name": "Vera Miller",
+      "id": 7
+    }
+  ],
+  "albums": [
+    {
+      "userId": 7,
+      "title": "Tasty Rubber Chair",
+      "id": 1
+    },
+    {
+      "userId": 7,
+      "title": "Incredible Concrete Car",
+      "id": 2
+    },
+    {
+      "userId": 7,
+      "title": "Awesome Metal Tuna",
+      "id": 4
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/128/128?lock=1267671840587776",
+      "id": 1
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/128/128?lock=1914265145442304",
+      "id": 2
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/128/128?lock=1821470309220352",
+      "id": 4
+    },
+    {
+      "albumId": 2,
+      "url": "https://picsum.photos/seed/pUJLU/128/128",
+      "id": 7
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/128/128?lock=4842803672645632",
+      "id": 8
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/128/128?lock=6307098577076224",
+      "id": 9
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/128/128?lock=4565113461800960",
+      "id": 10
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/128/128?lock=1598109146677248",
+      "id": 11
+    }
+  ]
+}
