@@ -1,8 +1,11 @@
 ## Setup
 
 ```
-npm install
-npm run dev .
+npm run dev
+```
+
+```
+npm run start:server
 ```
 # React + Vite
 
